@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- task 1 -->
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-10 m-auto">
+                <h2 class="text-center">ToDo List</h2>
+                <form onsubmit="return workCount()">
+                    <input class="form-control my-4" type="text" name="works" id="works" placeholder="Enter Your Work">
+                    <input type="submit" value="Enter" class="btn-primary btn-block">
+                </form>
+                <ol class="mt-4 border-1" id="result">
+
+                </ol>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- task 2 -->
+    <div class="container mt-5">
+        <div class="row test">
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
+    <button id="clickMe" class="btn btn-success w-75 d-block m-auto">Click</button>
+
+    <!-- task 3 -->
+     <h2 class="text-center mt-5" id="colorSelect">Lorem ipsum dolor sit amet.</h2>
+     <button id="red">Red</button>
+     <button id="blue">Blue</button>
+     <button id="green">Green</button>
+   
+     <!-- task 3 -->
+     <h2 class="text-center mt-5" id="selectColor">Lorem ipsum dolor sit amet.</h2>
+     <button data-colorrr="red">Red</button>
+     <button data-colorrr="blue">Blue</button>
+     <button data-colorrr="green">Green</button>
+
+    <!-- jquery js -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js  -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- main js  -->
+    <script src="js/main.js"></script>
+        
+</body>
+</html>
